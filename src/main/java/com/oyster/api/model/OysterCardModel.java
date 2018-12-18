@@ -2,8 +2,14 @@ package com.oyster.api.model;
 
 import java.math.BigDecimal;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+
+@Entity
 public class OysterCardModel {
 	
+	@Id
 	private Long cardId;
 	
 	private BigDecimal balance;
@@ -11,6 +17,14 @@ public class OysterCardModel {
 	private boolean inUse;
 	
 	private int lastRecordedZone;
+
+	public OysterCardModel(Long cardId, BigDecimal balance, boolean inUse, int lastRecordedZone) {
+		super();
+		this.cardId = cardId;
+		this.balance = balance;
+		this.inUse = inUse;
+		this.lastRecordedZone = lastRecordedZone;
+	}
 
 	public Long getCardId() {
 		return cardId;

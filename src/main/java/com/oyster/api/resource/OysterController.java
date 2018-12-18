@@ -33,5 +33,4 @@ public class OysterController {
 		TravelModel result = oysterService.recordTravel(travel);
 		return new ResponseEntity<TravelModel>(result, HttpStatus.OK);
 	}
-
 }

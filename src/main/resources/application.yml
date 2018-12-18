@@ -1,3 +1,13 @@
 spring:
   application:
     instance_id: adminservice
+
+  datasource:
+    url: jdbc:derby:mydb;create=true
+  jpa: 
+    properties: 
+      hibernate: 
+        dialect: org.hibernate.dialect.DerbyTenSevenDialect
+    hibernate: 
+      ddl-auto: update
+

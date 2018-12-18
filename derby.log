@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue Dec 18 16:00:32 GMT 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.1.0 - (1808820): instance a816c00e-0167-c20c-1b7a-00000d7e3e30 
+on database directory D:\workspaces\OysterCard\oyster-travel-management\mydb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/C:/Users/ig01006/.m2/repository/org/apache/derby/derby/10.14.1.0/derby-10.14.1.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_151-b12
+user.dir=D:\workspaces\OysterCard\oyster-travel-management
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
