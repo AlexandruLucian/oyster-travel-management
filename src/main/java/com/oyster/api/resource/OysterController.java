@@ -28,9 +28,9 @@ public class OysterController {
 	}
 	
 	@RequestMapping(value = "/oyster", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
-	public ResponseEntity<TravelModel> recordTravel(@RequestBody TravelModel travel) {
+	public ResponseEntity<OysterCardModel> recordTravel(@RequestBody TravelModel travel) {
 
-		TravelModel result = oysterService.recordTravel(travel);
-		return new ResponseEntity<TravelModel>(result, HttpStatus.OK);
+		OysterCardModel result = oysterService.recordTravel(travel);
+		return new ResponseEntity<OysterCardModel>(result, HttpStatus.OK);
 	}
 }
